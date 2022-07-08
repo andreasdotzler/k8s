@@ -172,3 +172,6 @@ spec:
               {{- end }}
           resources:
             {{- toYaml .Values.resources | nindent 12 }}
+      {{- if .Values.service.sidecarContainers }}
+      {{- toYaml .Values.service.sidecarContainers | nindent 8 }}
+      {{- end }}
