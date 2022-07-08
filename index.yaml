@@ -17,7 +17,7 @@ entries:
     - https://github.com/portainer/k8s
     type: application
     urls:
-    - https://github.com/portainer/k8s/releases/download/portainer-1.0.31/portainer-1.0.31.tgz
+    - https://github.com/andreasdotzler/k8s/releases/download/portainer-1.0.31/portainer-1.0.31.tgz
     version: 1.0.31
   - apiVersion: v2
     appVersion: ce-latest-ee-2.13.1
